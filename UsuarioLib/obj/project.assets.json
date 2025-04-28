@@ -8,19 +8,24 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Daniel\\.nuget\\packages\\": {}
+    "C:\\Users\\55619\\.nuget\\packages\\": {},
+    "F:\\VSCommunitySDK\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Daniel\\source\\repos\\UsuarioLib\\UsuarioLib\\UsuarioLib.csproj",
+      "projectUniqueName": "F:\\ProjetosVSCodeCommunity\\alura-memoria\\UsuarioLib\\UsuarioLib.csproj",
       "projectName": "UsuarioLib",
-      "projectPath": "C:\\Users\\Daniel\\source\\repos\\UsuarioLib\\UsuarioLib\\UsuarioLib.csproj",
-      "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Daniel\\source\\repos\\UsuarioLib\\UsuarioLib\\obj\\",
+      "projectPath": "F:\\ProjetosVSCodeCommunity\\alura-memoria\\UsuarioLib\\UsuarioLib.csproj",
+      "packagesPath": "C:\\Users\\55619\\.nuget\\packages\\",
+      "outputPath": "F:\\ProjetosVSCodeCommunity\\alura-memoria\\UsuarioLib\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "F:\\VSCommunitySDK\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\55619\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -40,7 +45,13 @@
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net6.0": {
@@ -61,7 +72,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
